@@ -1,0 +1,170 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    margin:0px;
+}
+
+.navbar {
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    min-height:10vh;
+    width:100%;
+    background-color:rgb(238, 97, 97);
+}
+
+.nav-items-list {
+    display:flex;
+    align-items:center;
+    list-style-type:none;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+li {
+    margin-left:10px;
+    margin-right:10px;
+    color:rgb(26, 17, 17);
+    font-weight:700;
+
+}
+
+.menu {
+    height:30px;
+}
+
+.bg-container {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    min-height:90vh;
+    background-size:cover;
+    margin:0px;
+}
+
+.text-contianer {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+    background-image: linear-gradient(to right, rgb(248, 248, 178), rgb(250, 178, 223));
+    padding-bottom:20px;
+    padding-left:60px;
+    padding-right:30px;
+    min-height:90vh;
+    width:50%;
+    margin:0px;
+    flex-shrink:1;
+}
+
+.heading {
+    font-size:36px;
+    font-family:"monospace";
+    font-weight:700;
+}
+
+.description {
+    font-size:14px;
+    font-family:"Roboto";
+    color:rgb(99, 56, 56);
+}
+
+.button {
+    margin-top:20px;
+    background-color:rgb(238, 97, 97);
+    border-radius:4px;
+    border:none;
+    font-size:14px;
+    color:#ffffff;
+    text-align:center;
+    height:35px;
+    width:110px
+}
+
+.image-container {
+    min-height:90vh;
+    background-size:cover;
+    width:50%;
+    justify-content:center;
+    align-items:center;
+}
+
+.image {
+    min-height:90vh;
+    width:100%;
+    flex-shrink:1;
+}
+
+.second-contianer {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    width:100%;
+    background-image:linear-gradient(to right, rgb(248, 248, 178), rgb(250, 178, 223));
+}
+
+.first-image {
+    display:flex;
+    flex-direction:column;
+}
+
+.stag-image {
+    height:150px;
+    width:190px;
+    margin:5px;
+}
+
+.dish-image {
+    height:310px;
+    width:190px;
+    margin:5px;
+}
+
+.card {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+    padding-left:22px;
+    padding-right:12px;
+    padding-top:5px;
+    padding-bottom:5px;
+    height:200px;
+    width:450px;
+    background-color:rgb(238, 97, 97);
+    margin:5px;
+}
+
+.name {
+    font-size:8px;
+    font-family:"monospace";
+    font-weight:700;
+    color:rgb(87, 61, 61);
+}
+
+.lorem-title {
+    font-size:18px;
+    font-family:"Open Sans";
+    color:rgb(34, 28, 28);
+}
+
+.click {
+    font-size:12px;
+    color:rgb(73, 47, 47);
+    font-family:"Serif";
+    font-weight:bold;
+    margin-right:4px;
+}
+
+.arrow-container {
+    display:flex;
+}
+
+
+.arrow {
+    margin-left:4px;
+}
